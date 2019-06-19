@@ -1,0 +1,11 @@
+ldnddev_accordion:
+  css:
+    component:
+      assets/css/ldnddev_accordion.css:
+        minified: false
+  js:
+    assets/js/ldnddev_accordion.js:
+      minified: false
+  dependencies:
+    - core/jquery
+    - core/drupal

@@ -1,0 +1,67 @@
+uuid: 6283dcb4-d071-4851-8ae0-24c12dc4e140
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_accordion_item
+    - paragraphs.paragraphs_type.ldnddev_accordion
+    - paragraphs.paragraphs_type.ldnddev_accordion_item
+  module:
+    - entity_reference_revisions
+id: paragraph.ldnddev_accordion.field_ldnddev_accordion_item
+field_name: field_ldnddev_accordion_item
+entity_type: paragraph
+bundle: ldnddev_accordion
+label: 'ldnddev Accordion Item'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      ldnddev_accordion_item: ldnddev_accordion_item
+    target_bundles_drag_drop:
+      ldnddev_accordion:
+        weight: 14
+        enabled: false
+      ldnddev_accordion_item:
+        enabled: true
+        weight: 15
+      ldnddev_gallery:
+        weight: 16
+        enabled: false
+      ldnddev_gallery_image:
+        weight: 17
+        enabled: false
+      ldnddev_gallery_video:
+        weight: 18
+        enabled: false
+      ldnddev_hero:
+        weight: 19
+        enabled: false
+      ldnddev_hero_image:
+        weight: 20
+        enabled: false
+      ldnddev_hero_video:
+        weight: 21
+        enabled: false
+      ldnddev_milestone:
+        weight: 22
+        enabled: false
+      ldnddev_milestone_item:
+        weight: 23
+        enabled: false
+      ldnddev_slider:
+        weight: 24
+        enabled: false
+      ldnddev_slider_image:
+        weight: 25
+        enabled: false
+      ldnddev_slider_video:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

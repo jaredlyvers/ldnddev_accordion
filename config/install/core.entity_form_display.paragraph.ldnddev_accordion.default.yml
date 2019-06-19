@@ -1,0 +1,38 @@
+uuid: 92bebe43-9bf5-4697-b93d-262e97e52211
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_accordion.field_ldnddev_accordion_css
+    - field.field.paragraph.ldnddev_accordion.field_ldnddev_accordion_item
+    - paragraphs.paragraphs_type.ldnddev_accordion
+  module:
+    - paragraphs
+id: paragraph.ldnddev_accordion.default
+targetEntityType: paragraph
+bundle: ldnddev_accordion
+mode: default
+content:
+  field_ldnddev_accordion_css:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ldnddev_accordion_item:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

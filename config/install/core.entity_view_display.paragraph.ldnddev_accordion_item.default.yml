@@ -1,0 +1,31 @@
+uuid: 2ffcdcc8-9ed6-4af3-a587-050eee52f866
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_accordion_item.field_ldnddev_accordion_copy
+    - field.field.paragraph.ldnddev_accordion_item.field_ldnddev_accordion_header
+    - paragraphs.paragraphs_type.ldnddev_accordion_item
+  module:
+    - text
+id: paragraph.ldnddev_accordion_item.default
+targetEntityType: paragraph
+bundle: ldnddev_accordion_item
+mode: default
+content:
+  field_ldnddev_accordion_copy:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_ldnddev_accordion_header:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

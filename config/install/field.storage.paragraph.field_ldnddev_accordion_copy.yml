@@ -1,0 +1,19 @@
+uuid: 8407a0cd-19e1-46f3-8060-b583847997c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_ldnddev_accordion_copy
+field_name: field_ldnddev_accordion_copy
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

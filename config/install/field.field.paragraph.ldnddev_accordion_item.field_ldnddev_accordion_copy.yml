@@ -1,0 +1,21 @@
+uuid: 7b2af103-02f8-4f30-abf3-21dcbc479d3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_accordion_copy
+    - paragraphs.paragraphs_type.ldnddev_accordion_item
+  module:
+    - text
+id: paragraph.ldnddev_accordion_item.field_ldnddev_accordion_copy
+field_name: field_ldnddev_accordion_copy
+entity_type: paragraph
+bundle: ldnddev_accordion_item
+label: 'ldnddev Accordion Copy'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

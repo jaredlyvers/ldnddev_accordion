@@ -1,0 +1,9 @@
+uuid: bab3ed2b-ebda-42d2-959c-284f67a1b6a6
+langcode: en
+status: true
+dependencies: {  }
+id: ldnddev_accordion
+label: 'ldnddev Accordion'
+icon_uuid: null
+description: 'This bundle is used to add an Accordion component to the page.'
+behavior_plugins: {  }
