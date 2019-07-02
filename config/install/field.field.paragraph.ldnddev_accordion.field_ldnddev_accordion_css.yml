@@ -5,12 +5,14 @@ dependencies:
   config:
     - field.storage.paragraph.field_ldnddev_accordion_css
     - paragraphs.paragraphs_type.ldnddev_accordion
+_core:
+  default_config_hash: yEPP1Nj3nX7ozWWugpyldCQtSHv4YPGcHKx3WvcjIQM
 id: paragraph.ldnddev_accordion.field_ldnddev_accordion_css
 field_name: field_ldnddev_accordion_css
 entity_type: paragraph
 bundle: ldnddev_accordion
-label: 'ldnddev Accordion CSS'
-description: ''
+label: 'Custom CSS Class'
+description: 'Add your own custom CSS class.'
 required: false
 translatable: false
 default_value: {  }

@@ -8,11 +8,13 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_accordion_item
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: eGa4IgxEggG_JFSMvaqnnAdlSFzymyOjdSUGjPccU1c
 id: paragraph.ldnddev_accordion.field_ldnddev_accordion_item
 field_name: field_ldnddev_accordion_item
 entity_type: paragraph
 bundle: ldnddev_accordion
-label: 'ldnddev Accordion Item'
+label: 'Accordion Item'
 description: ''
 required: false
 translatable: false
@@ -52,16 +54,37 @@ settings:
       ldnddev_milestone:
         weight: 22
         enabled: false
+      ldnddev_add_a_file:
+        weight: 23
+        enabled: false
       ldnddev_milestone_item:
         weight: 23
+        enabled: false
+      ldnddev_add_a_link:
+        weight: 24
         enabled: false
       ldnddev_slider:
         weight: 24
         enabled: false
+      ldnddev_card:
+        weight: 25
+        enabled: false
       ldnddev_slider_image:
         weight: 25
         enabled: false
+      ldnddev_card_item:
+        weight: 26
+        enabled: false
       ldnddev_slider_video:
         weight: 26
+        enabled: false
+      ldnddev_file_or_link:
+        weight: 27
+        enabled: false
+      ldnddev_rich_text:
+        weight: 36
+        enabled: false
+      ldnddev_section:
+        weight: 37
         enabled: false
 field_type: entity_reference_revisions

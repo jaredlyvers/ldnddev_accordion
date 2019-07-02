@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_accordion_item
   module:
     - text
+_core:
+  default_config_hash: bg8Xf4OOXB7B8z9aIMMS9MSdRRNNWdV-Lc-t3I1myIY
 id: paragraph.ldnddev_accordion_item.default
 targetEntityType: paragraph
 bundle: ldnddev_accordion_item

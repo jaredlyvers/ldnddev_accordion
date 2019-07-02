@@ -5,11 +5,13 @@ dependencies:
   config:
     - field.storage.paragraph.field_ldnddev_accordion_header
     - paragraphs.paragraphs_type.ldnddev_accordion_item
+_core:
+  default_config_hash: KpVr2RWDRbDSQerQQXcpFuJl4CwNOR-G_FGnteQCQ7c
 id: paragraph.ldnddev_accordion_item.field_ldnddev_accordion_header
 field_name: field_ldnddev_accordion_header
 entity_type: paragraph
 bundle: ldnddev_accordion_item
-label: 'ldnddev Accordion Header'
+label: 'Accordion Header'
 description: ''
 required: false
 translatable: false

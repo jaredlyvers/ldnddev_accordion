@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: DASLYIrE4oYeClHK5MVQJEvE89OYD2qyZ-FMu-kMq0w
 id: paragraph.field_ldnddev_accordion_css
 field_name: field_ldnddev_accordion_css
 entity_type: paragraph

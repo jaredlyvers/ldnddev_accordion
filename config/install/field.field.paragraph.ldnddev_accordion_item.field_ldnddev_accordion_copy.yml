@@ -7,12 +7,14 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_accordion_item
   module:
     - text
+_core:
+  default_config_hash: 0JCCOBSx_Dq07gyF-nnSPL81UkezPlPwivpQQKV-XRs
 id: paragraph.ldnddev_accordion_item.field_ldnddev_accordion_copy
 field_name: field_ldnddev_accordion_copy
 entity_type: paragraph
 bundle: ldnddev_accordion_item
-label: 'ldnddev Accordion Copy'
-description: ''
+label: 'Accordion Body Copy'
+description: 'This is the hidden body copy.'
 required: false
 translatable: false
 default_value: {  }

@@ -5,6 +5,8 @@ dependencies:
   module:
     - paragraphs
     - text
+_core:
+  default_config_hash: oQpvHlQm75CExzMjafOg-0o1Q5tQaLdSyqIdgF8q3go
 id: paragraph.field_ldnddev_accordion_copy
 field_name: field_ldnddev_accordion_copy
 entity_type: paragraph

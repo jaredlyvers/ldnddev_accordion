@@ -2,6 +2,8 @@ uuid: 452e867b-0ad4-4166-8526-d8463b028f6b
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: LF3K0relMT-P6yrV6KkLlrQFurFK0VP2gYYd7GmjrwE
 id: ldnddev_accordion_item
 label: 'ldnddev Accordion Item'
 icon_uuid: null
