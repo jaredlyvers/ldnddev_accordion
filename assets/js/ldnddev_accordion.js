@@ -3,7 +3,7 @@ jQuery(document).ready(function($){
         $(this)
             .toggleClass('-active')
             .next()
-            .slideToggle()
+            //.slideToggle()
             .parent()
             .toggleClass('-active')
     });
